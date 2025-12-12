@@ -19,7 +19,7 @@ Unlike standard "Ctrl+F" searches, PatchScout allows players to:
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/cs410-patch-scout.git](https://github.com/YOUR_USERNAME/cs410-patch-scout.git)
+git clone git@github.com:panbrendan/cs410_patch_scout.git
 cd cs410-patch-scout
 pip install pandas numpy scikit-learn rank_bm25 sentence-transformers faiss-cpu beautifulsoup4 requests
 ```
