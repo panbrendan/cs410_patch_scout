@@ -28,7 +28,7 @@ pip install pandas numpy scikit-learn rank_bm25 sentence-transformers faiss-cpu 
 The project comes with a pre-scraped dataset (`osrs_master_dataset.csv`). If you wish to regenerate the data from scratch (fetching the latest updates from 2013–2025), run the following command in your terminal:
 
 ```bash
-`python scrape_official_full.py`
+python scrape_official_full.py
 ```
 
 *Note: This script includes intentional delays to respect Jagex's rate limits. A full scrape takes approximately 30 minutes.*
