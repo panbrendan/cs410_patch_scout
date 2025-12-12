@@ -1,0 +1,11 @@
+# Ignore the virtual environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Ignore macOS junk
+.DS_Store
+
+# Optional: Ignore data if files get huge (usually good practice)
+# data/
